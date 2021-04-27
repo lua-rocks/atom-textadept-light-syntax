@@ -142,7 +142,6 @@ atom-text-editor {
       color: @gray;
     }
 
-    &.syntax--string,
     &.syntax--variable,
     &.syntax--parameters,
     &.syntax--array {
@@ -306,4 +305,17 @@ atom-text-editor[mini] .scroll-view {
   border-bottom: none;
   background-color: @light;
   position: absolute;
+}
+
+.syntax--raw.syntax--gfm {
+  color: @green;
+}
+
+.syntax--entity.syntax--gfm {
+  color: @blue;
+}
+
+.syntax--link.syntax--gfm {
+  color: @teal;
+  text-decoration: underline;
 }
