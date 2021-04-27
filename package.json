@@ -2,12 +2,12 @@
   "name": "textadept-light-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "The theme stolen from textadept with love.",
   "keywords": [
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/my-theme-syntax",
+  "repository": "https://github.com/lua-rocks/atom-textadept-light-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
