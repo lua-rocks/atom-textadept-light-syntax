@@ -6,9 +6,14 @@
   "keywords": [
     "syntax",
     "theme",
+    "light",
+    "adaptive",
     "textadept"
   ],
-  "repository": "https://github.com/lua-rocks/atom-textadept-light-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lua-rocks/atom-textadept-light-syntax.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
