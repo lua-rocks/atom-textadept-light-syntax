@@ -66,7 +66,7 @@ atom-text-editor {
   }
 
   &.syntax--operator {
-    color: @syntax-text-color;
+    color: @magenta;
   }
 
   &.syntax--other.syntax--special-method {
@@ -318,4 +318,8 @@ atom-text-editor[mini] .scroll-view {
 .syntax--link.syntax--gfm {
   color: @teal;
   text-decoration: underline;
+}
+
+.syntax--punctuation, .syntax--definition, .syntax--array{
+  color: @magenta;
 }
