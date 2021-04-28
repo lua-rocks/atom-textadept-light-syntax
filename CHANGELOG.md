@@ -1,13 +1,9 @@
 # Change Log
 
-## 1.0.0
+## 1.0.0 - First Release
 
 * Publish.
 
-## 0.1.0
-
-* Prepare for publish.
-
-## 0.0.0 - First Release
+## 0.0.0 - Init repo
 
 * Upload to github.
