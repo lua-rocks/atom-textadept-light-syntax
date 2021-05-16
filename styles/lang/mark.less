@@ -1,0 +1,65 @@
+.syntax--markup,.syntax--md,.syntax--gfm {
+  .syntax--list,.syntax--quote {
+    color: @black;
+  }
+
+  .syntax--bold,
+  .syntax--heading,
+  .syntax--strong.syntax--emphasis {
+    font-weight: bold;
+    color: @black;
+    .syntax--punctuation {
+      color: @gray;
+    }
+  }
+
+  .syntax--italic,
+  .syntax--emphasis:not(.syntax--strong) {
+    font-style: italic;
+    color: @black;
+    .syntax--punctuation {
+      color: @gray;
+    }
+  }
+
+  .syntax--strike {
+    text-decoration: line-through;
+  }
+
+  .syntax--support,.syntax--variable  {
+    color: @magenta;
+  }
+
+  .syntax--heading {
+    color: @red;
+    .syntax--punctuation {
+      color: @red;
+    }
+  }
+
+  .syntax--underline {
+    text-decoration: underline;
+    color: @blue;
+  }
+
+  .syntax--raw {
+    background-color: @white;
+    .syntax--punctuation {
+      color: @gray;
+    }
+  }
+
+  .syntax--embedded {
+    color: @blue;
+  }
+
+  .syntax--entity {
+    color: @green;
+  }
+}
+
+.syntax--gfm {
+  .syntax--quote {
+    color: @gray;
+  }
+}

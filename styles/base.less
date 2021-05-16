@@ -244,54 +244,6 @@ atom-text-editor {
   color: @syntax-text-color;
 }
 
-.syntax--markup {
-  &.syntax--bold {
-    color: @orange;
-    font-weight: bold;
-  }
-
-  &.syntax--changed {
-    color: @blue;
-  }
-
-  &.syntax--deleted {
-    color: @blue;
-  }
-
-  &.syntax--italic {
-    color: @blue;
-    font-style: italic;
-  }
-
-  &.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
-    color: @magenta;
-  }
-
-  &.syntax--inserted {
-    color: @green;
-  }
-
-  &.syntax--list {
-    color: @blue;
-  }
-
-  &.syntax--quote {
-    color: @orange;
-  }
-
-  &.syntax--raw.syntax--inline {
-    color: @green;
-  }
-}
-
-.syntax--source.syntax--gfm .syntax--markup {
-  -webkit-font-smoothing: auto;
-  &.syntax--heading {
-    color: @green;
-  }
-}
-
-
 // Mini editor
 
 atom-text-editor[mini] .scroll-view {
@@ -304,19 +256,6 @@ atom-text-editor[mini] .scroll-view {
   border-bottom: none;
   background-color: @light;
   position: absolute;
-}
-
-.syntax--raw.syntax--gfm {
-  color: @green;
-}
-
-.syntax--entity.syntax--gfm {
-  color: @blue;
-}
-
-.syntax--link.syntax--gfm {
-  color: @teal;
-  text-decoration: underline;
 }
 
 .syntax--punctuation, .syntax--definition, .syntax--array{
